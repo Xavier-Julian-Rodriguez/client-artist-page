@@ -1,0 +1,81 @@
+.hamContainer {
+    width: 100%;
+    position: fixed;
+    z-index: 998;
+}
+
+.hamburger {
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    margin-top: .5rem;
+}
+
+#navLines {
+    width: 2.5rem;
+    height: .5rem;
+    background-color: #000000;
+    margin-bottom: .25rem;
+    list-style: none;
+    margin-left: 73%;
+    
+}
+
+/* pop up menu styling */
+.visible {
+    display: inherit;
+}
+.hidden {
+    display: none;
+}
+
+.linksList {
+    display: flex;
+    flex-direction: column;
+    color: #000000;
+    font-size: 2.5rem;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    justify-content: center;
+    line-height: 5rem;
+    background-color: #F5F5DC;
+    overflow-y:hidden;
+    z-index: 997;
+    text-align: center;
+
+}
+
+a {
+    margin: 0;
+    letter-spacing: .25rem;
+    color: #000000;
+    text-decoratioN: none;
+    font-family: 'Lato', sans-serif;
+}
+a:hover {
+    color: #900D09;
+}
+ 
+ .burgerBar.clicked:nth-child(1) {
+   transform: rotate(45deg) translate(.55rem, .5rem);
+   transition: ease-out 0.5s;
+   background-color: #000000;
+ }
+    
+ .burgerBar.clicked:nth-child(2) {
+   transform: scale(.1);
+   transition: ease-out 0.5s;
+   background-color: #000000;
+ }
+ .burgerBar.clicked:nth-child(3) {
+    transform: rotate(135deg) translate(-.45rem, .6rem);
+    transition: ease-out 0.5s;
+    background-color: #000000;
+  }
+
+.burgerBar.unclicked {
+    transition: ease-out 0.5s;
+}
+
+

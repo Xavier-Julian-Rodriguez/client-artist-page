@@ -1,0 +1,47 @@
+.footer {
+    width: 100%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem; 
+    background-color: #ffffff;
+    min-height: 10vh;
+    display: inline-grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 0;
+    grid-template-areas:
+        "instagram facebook youtube imdb"
+        "copyright copyright copyright copyright"
+        "createdBy createdBy createdBy createdBy";
+    }
+
+svg {
+    width: 3rem;
+    margin: 0 .25rem;
+    grid-area: instagram;
+}
+
+img {
+    width: 3rem;
+    margin: 0 .25rem;
+}
+
+div:first-child {
+    grid-area: facebook;
+}
+div:img:nth-child(2) {
+    grid-area: youtube;
+}
+div:img:nth-child(3) {
+    grid-area: imdb;
+}
+
+.copyright {
+    grid-area: copyright;
+    margin: 1rem 0 0 0;
+}
+.createdBy {
+    grid-area: createdBy;
+    margin: 0;
+}
+

@@ -1,0 +1,82 @@
+.contactGrid {
+    margin-left: 1rem;
+    margin-top: 7vh;
+    display: grid;
+    width: 45vh;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+    "contactMe contactMe"
+    "line line" 
+    "rep hairColor"
+    "heightWeight eyeColor"
+    "form form"
+    "message message";
+}
+
+.contactMe {
+    font-family: 'Lato', sans-serif;
+    grid-area: contactMe;
+}
+.lineContainer {
+    background-color: #000000;
+    height: .1rem;
+    width: 43vh;
+    grid-area: line;
+}
+.representation {
+    grid-area: rep;
+    text-align: left;
+}
+.hairColor {
+    grid-area: hairColor;
+}
+.heightWeight {
+    grid-area: heightWeight;
+}
+.eyeColor {
+    grid-area: eyeColor;
+}
+.contactForm {
+    grid-area: form;
+}
+.theForm {
+    font-size: 12px;
+    margin-top: 1rem;
+    line-height: 1.25rem;
+}
+.theForm input:nth-child(3) {
+    width: 42vh;
+}
+.theForm input:nth-child(7) {
+    width: 42vh;
+}
+.theForm input:nth-child(11) {
+    width: 42vh;
+}
+.messageArea {
+    margin-bottom: 8px;
+    width: 42vh;
+}
+p {
+    line-height: 14px;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
+.nationalTalent {
+    margin-top: 0px;
+}
+button{
+    width: 43vh;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: "Lato" "sans-serif";
+    min-height: 1.75rem;
+    padding: .75rem 0;
+    font-size: 1.25rem;
+    border: solid #900D09 3px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 11px;
+}

@@ -1,0 +1,60 @@
+.resumeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 3rem;
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+    background-color: #ffffff;
+    margin: 0px auto;
+}
+.photoContainer {
+    width: 256px;
+    height: 320px;
+    position: relative;
+    bottom: 9vh;
+    z-index: 900;
+    border: solid 2px #000000;
+}
+.visible {
+    display: inherit;
+}
+.hidden {
+    display: none;
+}
+.resume {
+    width: 200px;
+}
+.h2Resume {
+    color: #000000;
+}
+.resume:hover {
+    opacity: 75%;
+    cursor:pointer
+}
+.resume.clicked {
+    display: none;
+}
+.resume.unclicked {
+    display: inherit;
+}
+.xMark {
+    font-size: 3rem;
+    color: #000000;
+    z-index: 999;
+    display: flex;
+    position: absolute;
+    right: 25px;
+    top: -25px;
+}
+.maxItemsContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.enlargedResume {
+    width: 100%;
+    z-index: 10;
+    overflow: hidden;
+}

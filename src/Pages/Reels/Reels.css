@@ -1,0 +1,52 @@
+.reelsContainer {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    background-color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+    
+}
+.reelsText {
+    margin-top: 8vh;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    position: relative;
+    letter-spacing: .2rem;
+    text-decoration: overline underline #000000;
+    text-underline-offset: 10px;
+}
+.videoList {
+    list-style: none;
+    position: relative;
+    border: 2px solid #900D09;
+    width: 100%;
+    background-color: #900D09;
+    justify-content: center;
+    display:flex;
+}
+.reelsContent {
+    display: inline-block;
+    flex-direction: column;
+    text-align: center;
+    font-size: .8rem; 
+}
+ul p {
+    margin: 0;
+}
+h2 {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    color: #900D09;
+    font-size: 1.3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+p:nth-child(4) {
+    margin-bottom: 12px;
+}

@@ -1,0 +1,30 @@
+.homepageContainer {
+    background-image: url('../../Images/caitlinHomepage.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    opacity: 80%;
+    z-index: 999;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.homeHOne {
+    font-size: 4rem;
+    margin: 0;
+    position: relative;
+    margin-top: 70vh;
+    color: #000000;
+    opacity: 100%;
+    font-weight: bold;
+}
+
+.homeHTwo {
+    font-size: 3rem;
+    letter-spacing: .4rem;
+    margin: 0;
+    color: #000000;
+    opacity: 120%;
+}
