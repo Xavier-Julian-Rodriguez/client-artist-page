@@ -7,6 +7,7 @@ import React from 'react';
 import Reels from './Pages/Reels/Reels';
 import Resume from './Pages/Resume/Resume';
 import Contact from './Pages/Contact/Contact';
+import Headshots from './Pages/Headshots/Headshots';
 
 const App = React.memo(() => {
   return (
@@ -20,11 +21,14 @@ const App = React.memo(() => {
             <Route exact path='/'>
               <Homepage />  
             </Route>
+            <Route exact path='/Resume'>
+              <Resume />
+            </Route>
             <Route path='/Reels'>
               <Reels />  
             </Route>
-            <Route exact path='/Resume'>
-              <Resume />
+            <Route exact path='/Headshots'>
+              <Headshots />
             </Route>
             <Route path='/Contact'>
               <Contact />

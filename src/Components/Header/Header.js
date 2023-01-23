@@ -24,6 +24,7 @@ const Header = () => {
       return (
         <div>
             <div className='hamContainer'>
+                <p className='name'>CAITLIN HUTSON</p>
                 <ul
                 className='hamburger'
                 onClick={updateMenu}
@@ -39,7 +40,7 @@ const Header = () => {
                     <Link to="/" className="links">HOME</Link>
                     <Link to="/Resume" className="links">RESUME</Link>
                     <Link to="/Reels" className="links">REELS</Link>
-                    <Link href="" className="links">HEADSHOTS</Link>
+                    <Link to="/Headshots" className="links">HEADSHOTS</Link>
                     <Link to="/Contact" className="links">CONTACT ME</Link>  
                     </span>
                 </div>    

@@ -11,7 +11,7 @@ const Resume = React.memo(() => {
     const[largeResume, setLargeResume] = useState('photoContainer hidden');
     const[thumbnails, setTheThumbnails] = useState('resume unclicked');
     const [theXMark, setTheXMark] = useState('xMark hidden');
-    const [mainImage, setMainImage] = useState({stuntResume});
+    const [mainImage, setMainImage] = useState('');
     const [elementIsClicked, setElementIsClicked] = useState(false);
 
     const maxTheImage = () => {
@@ -43,7 +43,7 @@ const Resume = React.memo(() => {
     }
     const thatElementIsClicked = () => {
         if(!elementIsClicked){
-            setMainImage({actingResume});
+            setMainImage('../../Images/actingResume.png');
         } else {
             setMainImage(null);
         }
@@ -52,7 +52,7 @@ const Resume = React.memo(() => {
 
     return (
         <div className='resumeContainer'>
-            <div>
+            <div className='resumehOneContainer'>
                 <h1>RESUMES</h1>
             </div>
             <div>
@@ -71,7 +71,7 @@ const Resume = React.memo(() => {
                 
                 <div className={largeResume}>
                     <p className={theXMark} onClick={minTheImage}>x</p>
-                    <img src={actingResume} alt='work experience resume' className='enlargedResume'/>
+                    <img src={mainImage} alt='work experience resume' className='enlargedResume'/>
                 </div>  
             </div>
         </div>

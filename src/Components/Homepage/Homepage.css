@@ -1,6 +1,7 @@
 .homepageContainer {
-    background-image: url('../../Images/caitlinHomepage.png');
+    background-image: url('../../Images/IMG_0446.JPG');
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     min-height: 100vh;
     margin: 0;
@@ -9,6 +10,7 @@
     z-index: 999;
     font-family: 'Lato', sans-serif;
     text-align: center;
+    margin-top: 7vh;
 }
 
 .homeHOne {
@@ -16,7 +18,7 @@
     margin: 0;
     position: relative;
     margin-top: 70vh;
-    color: #000000;
+    color: #FFFFFF;
     opacity: 100%;
     font-weight: bold;
 }
@@ -25,6 +27,6 @@
     font-size: 3rem;
     letter-spacing: .4rem;
     margin: 0;
-    color: #000000;
+    color: #FFFFFF;
     opacity: 120%;
 }

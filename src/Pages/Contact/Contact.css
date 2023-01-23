@@ -1,21 +1,24 @@
 .contactGrid {
     margin-left: 1rem;
-    margin-top: 7vh;
+    margin-top: 6vh;
     display: grid;
-    width: 45vh;
+    width: 100%;
     grid-template-columns: 50% 50%;
     grid-template-areas:
-    "contactMe contactMe"
+    "blank blank"
     "line line" 
     "rep hairColor"
     "heightWeight eyeColor"
     "form form"
     "message message";
 }
-
 .contactMe {
     font-family: 'Lato', sans-serif;
-    grid-area: contactMe;
+    background-color: #000000;
+    color: #ffffff;
+    letter-spacing: 1px;
+    margin-top: 9vh;
+    text-align: center;
 }
 .lineContainer {
     background-color: #000000;
@@ -44,13 +47,13 @@
     margin-top: 1rem;
     line-height: 1.25rem;
 }
-.theForm input:nth-child(3) {
+.theForm input:nth-child(4) {
     width: 42vh;
 }
-.theForm input:nth-child(7) {
+.theForm input:nth-child(8) {
     width: 42vh;
 }
-.theForm input:nth-child(11) {
+.theForm input:nth-child(12) {
     width: 42vh;
 }
 .messageArea {

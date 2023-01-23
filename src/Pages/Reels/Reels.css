@@ -16,9 +16,10 @@
     width: 100%;
     display: flex;
     position: relative;
-    letter-spacing: .2rem;
-    text-decoration: overline underline #000000;
-    text-underline-offset: 10px;
+    background-color: #000000;
+    width: 100vh;
+    color: #ffffff;
+    letter-spacing: 1px;
 }
 .videoList {
     list-style: none;

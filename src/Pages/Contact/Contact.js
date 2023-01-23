@@ -4,9 +4,10 @@ const Contact = () => {
 
     return(
         <div>
-            
+            <div>
+            <h1 className='contactMe'>Contact Me</h1>
+            </div>
             <div className='contactGrid' >
-                <h1 className='contactMe'>Contact Me</h1>
                 <div className='lineContainer'></div>
                 <div className='representation'>
                     <p><b>Representation:</b> Noelle Kim</p>
@@ -23,13 +24,14 @@ const Contact = () => {
                     <p><b>Eye Color:</b> Green</p>
                 </div>
                 <div className='contactForm'>
-                    <form action='mailto:xavierjulianrod@gmail.com' method='GET' className='theForm' >
+                    <form action='mailto:x2wenty6@gmail.com' method='GET' className='theForm' >
+                        <input type='hidden' name='_subject' value='Caitlin Hutson Booking Request' />
                         <label for='fullName'>Your Full Name*</label><br/>
                             <input id='fullName' type='email field' name='name' placeholder='eg. John Doe' maxlength='30' required/><br/>
                         <label for='email'>Your Email*</label><br/>
-                            <input id='email' type='email field' placeholder='eg. me@mail.com' required/><br/>
+                            <input id='email' type='email' placeholder='eg. me@mail.com' name='email'required /><br/>
                         <label for='phoneNumber'>Your Phone Number*</label><br/>
-                            <input id='phoneNumber' type='email field' placeholder='eg. 012 345 6789' minlength='10' maxlength='10' required/><br/>
+                            <input id='phoneNumber' name='phone' type='email field' placeholder='eg. 012 345 6789' minlength='10' maxlength='10' required/><br/>
                         <label>Booking*</label><br/>
                             <input id='theatre' type='radio' value='theatre' name='subCategory'/>
                             <label for='theatre'>Theatrical</label>
